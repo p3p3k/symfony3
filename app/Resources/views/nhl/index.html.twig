@@ -142,7 +142,7 @@ Maple Leafs hrali lepšie a urobili všetko to, čo pri prehrách s Montrealom a
 
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><a href="/nhl/details/{{ nhl.id }}">{{ nhl.articleName }}</a></h3>
+                        <h3 class="panel-title"><a href="{{ path('nhl_details',{'id':nhl.id}) }}">{{ nhl.articleName }}</a></h3>
                     </div>
                     <div class="panel-body">
                          <p>{{ nhl.description }}</p>

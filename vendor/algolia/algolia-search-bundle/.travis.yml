@@ -1,0 +1,12 @@
+language: php
+php:
+    - 5.4
+    - 5.5
+before_install: curl -sS https://getcomposer.org/installer | php
+install: php composer.phar install
+before_script: mv Tests/config/parameters.yml.travis Tests/config/parameters.yml
+script: php vendor/bin/phpunit -c Tests
+env:
+  global:
+  - secure: kVMG3//7KXQ6I8qOD1B0Nsb7b4lRJenbt6fVFYWr/u3V/pEHoWlmab4isCHh3sBi3Y5ArlAyprKvJwHYG4Y8C+LKGOFaJEYmKwyoftWHCaF4PR2KYs+5ScZwso84/RRHlD7mYMhdrLgJ2TtbeZoZclgJ85S1zETrYPrgfZpFm50=
+  - secure: A/Vsshcysra1lor07JeUZ6iYCP5Q26IqiEQI1fMq9kElIliHl4BntrIhjOeL/nvj2iUSJz1S+n1pnM5MDGSyHFXSGu/w2MJy+k1COPcp1/GRmuU2dTlcKVaDZ5xU4XkE+zKNpONAwfFUtYNhcUOCVqbOthusFTAavVv1d7WrFQ8=

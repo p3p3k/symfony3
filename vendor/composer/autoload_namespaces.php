@@ -16,4 +16,6 @@ return array(
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
     'Assetic' => array($vendorDir . '/kriswallsmith/assetic/src'),
+    'AlgoliaSearch\\Tests' => array($vendorDir . '/algolia/algoliasearch-client-php/tests'),
+    'AlgoliaSearch' => array($vendorDir . '/algolia/algoliasearch-client-php/src'),
 );

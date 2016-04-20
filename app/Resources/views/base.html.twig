@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}NHL App{% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
     <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
@@ -44,9 +44,9 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="{{ path('nhl_page') }}">Home</a></li>
 
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">Search</a></li>
                         <li><a href="#">Contact</a></li>
                         <li class="dropdown">
                             <a href="{{ path('nhl_articles') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Articles <span class="caret"></span></a>
@@ -125,6 +125,8 @@
 </div><!-- /.container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="{{ asset('bundles/framework/js/jse_form.js') }}"/>
+<script src="{{ asset('bundles/framework/js/jse_search.js') }}"/>
 {% block javascripts %}{% endblock %}
 <div class="container">
 <h2 class="page-header">Add comment</h2>

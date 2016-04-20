@@ -38,16 +38,27 @@ class NhlController extends Controller
     }
 
     /**
-     * @Route("/articles", name="nhl_articles")
+     * @Route("/articles/", name="nhl_articles")
      */
     public function articlesAction(Request $request)
     {
+        $current = $request->getUri();
+
         $nhl = $this->getDoctrine()
             ->getRepository('AppBundle:Nhl')
-            ->findAll();
+            //->findAll();
+
+            ->findBy(array(),array(),3,($current));
+
+
         return $this->render('nhl/articles.html.twig',array(
-            'nhl'=>$nhl
+            'nhl'=>$nhl,
+
+
+
+
         ));
+
 
     }
 

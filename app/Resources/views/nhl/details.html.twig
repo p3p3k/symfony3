@@ -18,6 +18,7 @@
     </p>
 
     {% if nhl.id > 1 %}
+        <div class="pagination">
         <ul class="pagination pagination-sm">
         {# `«` arrow  #}
         <li {{ nhl.id == 1 ? 'class="disabled"' }}>
@@ -29,6 +30,7 @@
                 <a href="{{ path('nhl_details',{'id':nhl.id+1}) }}" class="btn btn-success">»</a>
             </li>
         </ul>
+        </div>
     {% endif %}
 
 
