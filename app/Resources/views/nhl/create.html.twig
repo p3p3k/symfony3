@@ -2,6 +2,7 @@
 
 {% block body %}
     <h2 class="page-header">Add article</h2>
+    {{ tinymce_init() }}
     {{form_start(form)}}
     {{form_widget(form)}}
     {{form_end(form)}}

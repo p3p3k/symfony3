@@ -48,7 +48,7 @@ class NhlController extends Controller
             ->getRepository('AppBundle:Nhl')
             //->findAll();
 
-            ->findBy(array(),array(),3,($current));
+            ->findBy(array(),array(),10,($current));
 
 
         return $this->render('nhl/articles.html.twig',array(
@@ -73,7 +73,7 @@ class NhlController extends Controller
         $form = $this->createFormBuilder($article)
             ->add('article_name', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('category', ChoiceType::class, array('choices' => array('NHL' => 'NHL','Players'=> 'Players','Slovaks Players' => 'Slovak Players'), 'attr'=>array('class' => 'form-control','style' => 'margin-bottom:15px')))
-            ->add('description', TextareaType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
+            ->add('description', TextareaType::class, array('attr' => array('class' => 'form-control','class' => 'tinymce','tinymce', 'style' => 'margin-bottom:15px')))
             ->add('name', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('author_email', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('due_date', DateTimeType::class, array('attr' => array('class' => 'formcontrol', 'style' => 'margin-bottom:15px')))
@@ -143,7 +143,7 @@ class NhlController extends Controller
         $form = $this->createFormBuilder($article)
             ->add('article_name', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('category', ChoiceType::class, array('choices' => array('NHL' => 'NHL','Players'=> 'Players','Slovaks Players' => 'Slovak Players'), 'attr'=>array('class' => 'form-control','style' => 'margin-bottom:15px')))
-            ->add('description', TextareaType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
+            ->add('description', TextareaType::class, array('attr' => array('class' => 'form-control', 'class' => 'tinymce', 'style' => 'margin-bottom:15px')))
             ->add('name', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('author_email', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('due_date', DateTimeType::class, array('attr' => array('class' => 'formcontrol', 'style' => 'margin-bottom:15px')))

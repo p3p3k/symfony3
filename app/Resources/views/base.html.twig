@@ -16,6 +16,7 @@
 
 
 
+
     {% block stylesheets %}
 
         <link type="text/css" rel="stylesheet" href="{{asset('bundles/framework/css/bootstrap.min.css')}}"/>
@@ -29,7 +30,7 @@
 <body>
 
 <div class="navbar-wrapper">
-    <div class="container">
+
 
         <nav class="navbar navbar-inverse">
             <div class="container">
@@ -54,8 +55,31 @@
                                 <li><a href="{{ path('nhl_articles') }}">Show articles</a></li>
                                 <li><a href="{{ path('nhl_create') }}">Add article</a></li>
                                 <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                                        <p class="navbar-text">
+                                        {{ 'layout.logged_in_as'|trans ({'%username%':app.user.username}, 'FOSUserBundle') }}
+                                        </p>
+                                        <li>
+                                            <a href="{{ path('fos_user_security_logout') }}">
+                                                {{ 'Logout'|trans({}, 'FOSUserBundle') }}
+                                            </a>
+                                        </li>
+                                    {% else %}
+                                        <li>
+                                            <a href="{{ path('fos_user_registration_register') }}">{{ 'registration.submit'|trans({},'FOSUserBundle')}}</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ path('fos_user_security_login') }}">{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}</a>
+                                        </li>
+                                    {% endif %}
 
-                            </ul>
+                                </ul>
+
+
                         </li>
                     </ul>
                 </div>
@@ -64,6 +88,11 @@
 
     </div>
 </div>
+
+
+
+
+
 
 
 <div class="container">
@@ -114,6 +143,8 @@
 
 
             {% block body %}{% endblock %}
+            &nbsp;
+            <br>
             <a href="#" class="btn btn-success" onclick="grey()">click for grey BG </a>
             <a href="#" class="btn btn-primary" onclick="white()">click for white BG </a>
             <a href="#" class="btn btn-danger" alt="Increase text size" onclick="resizeText(1)">Text size +</a>
@@ -125,36 +156,35 @@
 </div><!-- /.container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="{{ asset('bundles/framework/js/jse_form.js') }}"/>
-<script src="{{ asset('bundles/framework/js/jse_search.js') }}"/>
+
 {% block javascripts %}{% endblock %}
 <div class="container">
 <h2 class="page-header">Add comment</h2>
 
-<div id="disqus_thread"></div>
-<script>
-    /**
-     * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    /*
-     var disqus_config = function () {
-     this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-     };
-     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
 
-        s.src = '//nhl-app.disqus.com/embed.js';
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
 
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+         var disqus_config = function () {
+         this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
 
-<script id="dsq-count-scr" src="//nhl-app.disqus.com/count.js" async></script>
-</div>
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//nhl-app.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//nhl-app.disqus.com/count.js" async></script>
+    </div>
 </body>
 </html>

@@ -1,0 +1,5 @@
+bc1671,127.0.0.1,GET,http://127.0.0.1/nhl_app/web/app_dev.php/login,1462310875,,200
+a6750e,127.0.0.1,GET,http://127.0.0.1/nhl_app/web/app_dev.php/login,1462310977,,200
+5ce7ce,127.0.0.1,GET,http://127.0.0.1/nhl_app/web/app_dev.php/login,1462310981,,200
+9dee32,127.0.0.1,GET,http://127.0.0.1/nhl_app/web/app_dev.php/register/,1462310985,,200
+4bd965,127.0.0.1,GET,http://127.0.0.1/nhl_app/web/app_dev.php/articles/,1462310988,,200
