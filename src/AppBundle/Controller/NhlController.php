@@ -77,6 +77,7 @@ class NhlController extends Controller
             ->add('name', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('author_email', TextType::class, array('attr' => array('class' => 'form-control', 'style' => 'margin-bottom:15px')))
             ->add('due_date', DateTimeType::class, array('attr' => array('class' => 'formcontrol', 'style' => 'margin-bottom:15px')))
+            ->add('file')
             ->add('save',SubmitType::class, array('label'=> 'Create Article', 'attr' => array('class' => 'btn btn-primary', 'style' => 'margin-bottom:15px')))
             ->getForm();
 
@@ -101,7 +102,7 @@ class NhlController extends Controller
             $article->setCreateDate($now);
 
             $em = $this->getDoctrine()->getManager();
-
+            $article->upload();
             $em->persist($article);
             $em->flush();
 

@@ -16,7 +16,9 @@
     <p>
         {{ nhl.description }}
     </p>
-
+    <div class="thumbnail">
+    <img src="{{ asset('uploads/photos/'~nhl.path) }}" alt="photo">
+    </div>
     {% if nhl.id > 1 %}
         <div class="pagination">
         <ul class="pagination pagination-sm">

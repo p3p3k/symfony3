@@ -2,506 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbd28d47-1480-4064-b169-a07628eada25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/translations/FOSUserBundle.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/changePassword_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/checkEmail.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/email.txt.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/checkEmail.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/passwordAlreadyRequested.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/.php_cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Command/CleanCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Controller/AuthorizeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Controller/TokenController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/Compiler/GrantExtensionsCompilerPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/Compiler/RequestStackCompilerPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/Compiler/TokenStorageCompilerPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/FOSOAuthServerExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/DependencyInjection/Security/Factory/OAuthFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/AccessTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/AuthCodeManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/ClientManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/RefreshTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Document/TokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AccessTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AuthCodeManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/ClientManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/RefreshTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/TokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Event/OAuthEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/FOSOAuthServerBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Form/Handler/AuthorizeFormHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Form/Model/Authorize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Form/Type/AuthorizeFormType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AccessTokenInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AccessTokenManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AuthCodeInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AuthCodeManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/AuthCodeManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/ClientInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/ClientManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/ClientManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/RefreshTokenInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/RefreshTokenManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/TokenInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/TokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Model/TokenManagerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AccessTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AccessTokenQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AuthCodeManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AuthCodePeer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/AuthCodeQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/ClientManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/ClientPeer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/ClientQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/RefreshTokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/RefreshTokenQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/TokenManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/TokenPeer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Propel/TokenQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/authorize.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/couchdb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AccessToken.couchdb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AccessToken.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AccessToken.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AuthCode.couchdb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AuthCode.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/AuthCode.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/Client.couchdb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/Client.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/Client.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/RefreshToken.couchdb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/RefreshToken.mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/doctrine/RefreshToken.orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/mongodb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/oauth.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/propel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/propel/schema.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/routing/authorize.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/routing/token.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/config/validation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/a_note_about_security.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/adding_grant_extensions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/configuration_reference.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/dealing_with_scopes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/extending_the_authorization_page.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/extending_the_model.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/doc/the_oauth_event_class.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/meta/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/translations/FOSOAuthServerBundle.de.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/translations/FOSOAuthServerBundle.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/translations/FOSOAuthServerBundle.fr.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/translations/FOSOAuthServerBundle.sl.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/views/Authorize/authorize.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/views/Authorize/authorize_content.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/views/form.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Resources/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Security/Authentication/Provider/OAuthProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Security/Authentication/Token/OAuthToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Security/EntryPoint/OAuthEntryPoint.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Security/Firewall/OAuthListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Storage/GrantExtensionDispatcherInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Storage/GrantExtensionInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Storage/OAuthStorage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/DependencyInjection/FOSOAuthServerExtensionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Document/TokenManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Entity/TokenManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Form/Type/AuthorizeFormTypeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/AppKernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/BootTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/Entity/AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/Entity/AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/Entity/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/Entity/RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestBundle/TestBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/config/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/config/config_orm.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Functional/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Model/TokenTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/AuthCodeManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/AuthCodeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/ClientManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/ClientTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/PropelTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/TokenManagerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Propel/TokenTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Security/Authentification/Provider/OAuthProviderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Security/Firewall/OAuthListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/Storage/OAuthStorageTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Tests/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Util/LegacyFormHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Util/Random.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/CHANGELOG.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/config.doxy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2GrantClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2GrantCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2GrantExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2GrantImplicit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2GrantUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2RefreshTokens.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/IOAuth2Storage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/IOAuth2AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/IOAuth2AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/IOAuth2Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/IOAuth2RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/IOAuth2Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/OAuth2AccessToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/OAuth2AuthCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/OAuth2Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/OAuth2RefreshToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/Model/OAuth2Token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2AuthenticateException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2RedirectException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/lib/OAuth2ServerException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/mongo/addclient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/mongo/authorize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/mongo/lib/OAuth2StorageMongo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/mongo/protected_resource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/mongo/token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/addclient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/authorize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/lib/OAuth2StoragePdo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/lib/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/mysql_create_tables.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/protected_resource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/server/examples/pdo/token.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/ExtraHeadersTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2GrantCodeStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2GrantExtensionJwtBearer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2GrantExtensionLifetimeStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2GrantExtensionStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2GrantUserStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2ImplicitStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Fixtures/OAuth2StorageStub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/Model/OAuth2TokenTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/OAuth2ImplicitGrantTypeTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/OAuth2OutputTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php/tests/OAuth2Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/.php_cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/.styleci.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Get.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Link.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/NamePrefix.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/NoRoute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Options.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Param.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Patch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Prefix.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Put.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/QueryParam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/RequestParam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Route.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/RouteResource.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/Unlink.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/Annotations/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/ExceptionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Controller/FOSRestController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/ContainerDecoderProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/DecoderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/DecoderProviderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/JsonDecoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/JsonToFormDecoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Decoder/XmlDecoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/ConfigurationCheckPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/CsrfExtensionPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/ExceptionWrapperHandlerPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/FormatListenerRulesPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/ParamFetcherConfigurationPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/SerializerConfigurationPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Compiler/TwigExceptionPass.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/DependencyInjection/FOSRestExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/AccessDeniedListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/AllowedMethodsListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/BodyListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/FormatListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/MimeTypeListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/ParamFetcherListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/VersionListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/EventListener/ViewResponseListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/FOSRestBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Form/Extension/DisableCSRFExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Form/Transformer/EntityToIdObjectTransformer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Normalizer/ArrayNormalizerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Normalizer/CamelKeysNormalizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Normalizer/CamelKeysNormalizerWithLeadingUnderscore.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Normalizer/Exception/NormalizationException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/AbstractRequestBodyParamConverter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/ParamFetcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/ParamFetcherInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/ParamReader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/ParamReaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/ParameterBag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/RequestBodyParamConverter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Request/RequestBodyParamConverter20.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/access_denied_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/allowed_methods_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/body_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/exception_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/format_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/forms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/mime_type_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/param_fetcher_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/request.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/request_body_param_converter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/routing.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/schema/routing-1.0.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/schema/routing/rest_routing-1.0.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/util.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/config/view_response_listener.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/1-setting_up_the_bundle.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/2-the-view-layer.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/3-listener-support.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/4-exception-controller-support.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/5-automatic-route-generation_single-restful-controller.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/6-automatic-route-generation_multiple-restful-controllers.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/7-manual-route-definition.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/annotations-reference.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/body_listener.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/configuration-reference.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/examples/RssHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/examples/chaplin_backbone.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/format_listener.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/param_fetcher_listener.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/request_body_converter_listener.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/doc/view_response_listener.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Resources/meta/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Response/AllowedMethodsLoader/AllowedMethodsLoaderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Response/AllowedMethodsLoader/AllowedMethodsRouterLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/ClassResourceInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/Reader/RestActionReader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/Reader/RestControllerReader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/RestRouteLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/RestRouteProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/RestXmlCollectionLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/Loader/RestYamlCollectionLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Routing/RestRouteCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Serializer/ExceptionWrapperNormalizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Serializer/ExceptionWrapperSerializeHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Controller/Annotations/QueryParamTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Controller/Annotations/RequestParamTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Decoder/JsonToFormDecoderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/DependencyInjection/Compiler/ConfigurationCheckPassTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/DependencyInjection/Compiler/FormatListenerRulesPassTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/DependencyInjection/Compiler/SerializerConfigurationPassTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/DependencyInjection/FOSRestExtensionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/AccessDeniedListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/BodyListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/FormatListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/MimeTypeListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/ParamFetcherListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/EventListener/ViewResponseListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/FOSRestBundleTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/AnnotatedConditionalUsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/AnnotatedPrefixedController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/AnnotatedUsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/ArticleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/InformationController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/MediaController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/OrdersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/ParamFetcherController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/ReportController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/UserTopicCommentsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/UserTopicsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Controller/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/annotated_conditional_controller.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/annotated_users_controller.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/base_named_prefixed_reports_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/named_prefixed_reports_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/prefixed_users_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/resource_controller.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/users_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Etalon/users_controller.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/base_named_prefixed_reports_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/named_prefixed_reports_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/prefixed_users_collection.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/prefixed_users_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/routes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/routes.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/routes_with_options_requirements_and_defaults.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/routes_with_options_requirements_and_defaults.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/users_collection.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Fixtures/Routes/users_collection.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Controller/ArticleController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Controller/ParamFetcherController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Controller/RequestBodyParamConverterController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Controller/SerializerErrorController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Resources/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/Resources/views/Article/foo.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/Bundle/TestBundle/TestBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/ParamFetcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/RequestBodyParamConverterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/SerializerErrorTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/ViewResponseListenerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/WebTestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/AppKernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/JMSSerializer/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/JMSSerializer/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/ParamFetcher/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/ParamFetcher/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/RequestBodyParamConverter/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/RequestBodyParamConverter/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/Serializer/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/Serializer/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/ViewResponseListener/bundles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/ViewResponseListener/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/config/default.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/config/framework.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Functional/app/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Normalizer/CamelKeysNormalizerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Request/AbstractRequestBodyParamConverterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Request/ParamFetcherTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Request/ParamReaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Request/RequestBodyParamConverter20Test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Request/RequestBodyParamConverterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Routing/Loader/LoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Routing/Loader/RestRouteLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Routing/Loader/RestXmlCollectionLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Routing/Loader/RestYamlCollectionLoaderTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/Util/ViolationFormatterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/View/JsonpHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/View/ViewHandlerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Tests/View/ViewTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/UPGRADING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/Codes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/ExceptionWrapper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/FormatNegotiator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/FormatNegotiatorInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/Inflector/DoctrineInflector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/Inflector/InflectorInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/MediaTypeNegotiatorInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/StopFormatListenerException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/ViolationFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/Util/ViolationFormatterInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/ConfigurableViewHandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/ExceptionWrapperHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/ExceptionWrapperHandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/JsonpHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/RedirectView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/RouteRedirectView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/ViewHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/View/ViewHandlerInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOS/RestBundle/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bundles/framework/js/npm.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_7kkksv5u1f5a8c9t0o2hnheq72" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_40q90np2tl8ag4s008a3nmibq6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_a7k6jh754o1ieaj8ru9d8j4a56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_t8qohruvscb3d2ltqpnecchct5" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" afterPath="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nhl/create.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nhl/create.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nhl/edit.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nhl/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nhl/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nhl/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/var/cache/dev/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/01/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/01/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/08/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/08/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/1a/5b5b435d41707042756e646c655c456e746974795c4e686c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/1a/5b5b435d41707042756e646c655c456e746974795c4e686c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/55/5b5b435d41707042756e646c655c456e746974795c4e686c2461727469636c654e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/55/5b5b435d41707042756e646c655c456e746974795c4e686c2461727469636c654e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/60/5b5b435d41707042756e646c655c456e746974795c4e686c2463617465676f7279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/60/5b5b435d41707042756e646c655c456e746974795c4e686c2463617465676f7279405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/6c/5b5b435d41707042756e646c655c456e746974795c4e686c246465736372697074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/6c/5b5b435d41707042756e646c655c456e746974795c4e686c246465736372697074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/6f/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722361727469636c6573416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/6f/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722361727469636c6573416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/b3/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c6572236c697374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/b3/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c6572236c697374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/bd/5b5b435d41707042756e646c655c456e746974795c4e686c246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/bd/5b5b435d41707042756e646c655c456e746974795c4e686c246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/be/5b5b435d41707042756e646c655c456e746974795c4e686c2463726561746544617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/be/5b5b435d41707042756e646c655c456e746974795c4e686c2463726561746544617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/c1/5b5b435d41707042756e646c655c456e746974795c4e686c2464756544617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/c1/5b5b435d41707042756e646c655c456e746974795c4e686c2464756544617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/c4/5b5b435d41707042756e646c655c456e746974795c4e686c24617574686f72456d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/c4/5b5b435d41707042756e646c655c456e746974795c4e686c24617574686f72456d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/ce/5b5b435d41707042756e646c655c456e746974795c4e686c246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/ce/5b5b435d41707042756e646c655c456e746974795c4e686c246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/f4/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/f4/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/f5/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/f5/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/f9/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722364657461696c73416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/f9/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c4e686c436f6e74726f6c6c65722364657461696c73416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1f/1f040f624421e3e13b412e5fb338a124dc6efa2a91f957a5d716a43fc7cebc8b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1f/1f040f624421e3e13b412e5fb338a124dc6efa2a91f957a5d716a43fc7cebc8b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/20/2013c4abc372cb56ebc0c30aa9b29f7d7767ab6056252b8477ba4a59199bd11b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/20/2013c4abc372cb56ebc0c30aa9b29f7d7767ab6056252b8477ba4a59199bd11b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/21/2119e80fa0738bec4945311b1c8806cd5b3d4b9c9eaab4e61360a08bce98a023.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/21/2119e80fa0738bec4945311b1c8806cd5b3d4b9c9eaab4e61360a08bce98a023.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/27/2757dff0667a333bc61c7df5b6fada0d6ba4e0abc8ac49d05210abbb99ce0ac0.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/27/2757dff0667a333bc61c7df5b6fada0d6ba4e0abc8ac49d05210abbb99ce0ac0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/39/398213d71d4566d0c63272803e85deb98eb448953706549ffbca0863b2a2dd36.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/39/398213d71d4566d0c63272803e85deb98eb448953706549ffbca0863b2a2dd36.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5afb689c57abe2d9e34eea15ac35ba58cca2ab68984e5ab87a4bd3c83d704e3d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5a/5afb689c57abe2d9e34eea15ac35ba58cca2ab68984e5ab87a4bd3c83d704e3d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b04f42f865207ec902d4e3c0d317a906f5f1340a2d44ca87146b4e6101b902c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b04f42f865207ec902d4e3c0d317a906f5f1340a2d44ca87146b4e6101b902c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8a/8a8a76801df7c1af3597075ae6d168d62eb6467caab88a4a871ab383a5c21798.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8a/8a8a76801df7c1af3597075ae6d168d62eb6467caab88a4a871ab383a5c21798.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8e/8e0d30508643631ad4554a4f95dad54f0e8d5424849dcd866f8f05dbb2802e17.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8e/8e0d30508643631ad4554a4f95dad54f0e8d5424849dcd866f8f05dbb2802e17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/98/986dfa2b3decd572e1db5b2a4c789612113b3a9a9d751f3949d1bb29171ea17d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/98/986dfa2b3decd572e1db5b2a4c789612113b3a9a9d751f3949d1bb29171ea17d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b3/b339d9ba9d78fab2bcfe6e2ff47bef41048d57c95de1b317e0a22b1c362f56f1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b3/b339d9ba9d78fab2bcfe6e2ff47bef41048d57c95de1b317e0a22b1c362f56f1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/bd/bd6bcb7c571b66570d546cf04755ab9b396318cfa4150032ffd16a67789fb85c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bd/bd6bcb7c571b66570d546cf04755ab9b396318cfa4150032ffd16a67789fb85c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c0/c00823df33321e9f9e2dbf4aadbaea4bfbd4eea7c52fefa3c764482a6c2102ba.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c0/c00823df33321e9f9e2dbf4aadbaea4bfbd4eea7c52fefa3c764482a6c2102ba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c8/c8e99b09efb743222da23d2e0b1d8445fa1062b4e102abf9c40b81020f7e0d1b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c8/c8e99b09efb743222da23d2e0b1d8445fa1062b4e102abf9c40b81020f7e0d1b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cc/cc811aad4d5261b914d60bf3f36eb878a3921c0a2764f691a3a1b2aa162d2b77.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cc/cc811aad4d5261b914d60bf3f36eb878a3921c0a2764f691a3a1b2aa162d2b77.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="$PROJECT_DIR$/var/logs/prod.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_hnr0s1n72r5fq9d9iha4fleo85" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_hnr0s1n72r5fq9d9iha4fleo85" />
     </list>
     <ignored path="nhl_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -533,92 +80,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManager.php">
+      <file leaf-file-name="NhlController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.032259">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state vertical-scroll-proportion="-22.709677">
+              <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.4838705">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <file leaf-file-name="Nhl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+              <caret line="303" column="24" selection-start-line="303" selection-start-column="24" selection-end-line="303" selection-end-column="24" />
+              <folding>
+                <element signature="e#36#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.870968">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <file leaf-file-name="details.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.193548">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <file leaf-file-name="Photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.161291">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9442332">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
+            <state vertical-scroll-proportion="-20.161291">
+              <caret line="90" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+              <folding>
+                <element signature="e#118#150#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -639,10 +150,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/nhl/result.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/nhl/index.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig" />
@@ -657,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/nhl/edit.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/nhl/create.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/framework/js/jse_form.js" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" />
@@ -676,6 +183,11 @@
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php" />
       </list>
     </option>
   </component>
@@ -765,6 +277,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nhl_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nhl_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -788,32 +322,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nhl_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nhl_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -878,6 +386,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nhl_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nhl_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1195,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66342646">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1386,14 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="80.90323">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1437,18 +952,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9442332">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82867557">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7217497">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1461,10 +992,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.161291">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9063232">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5078979">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6415553">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1477,43 +1032,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Security/LoginManager.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.032259">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state vertical-scroll-proportion="-20.161291">
+          <caret line="90" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/nhl/articles.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.870968">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/nhl/details.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4838705">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.193548">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/NhlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.709677">
+          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Nhl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/framework/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9442332">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
+          <caret line="303" column="24" selection-start-line="303" selection-start-column="24" selection-end-line="303" selection-end-column="24" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,20 +21,20 @@ class __TwigTemplate_8ebb607559793179035d2890ab6ee1c1f230f6f37519aa9c704d158fd6f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_cac9636bb2abd454cac2f442d83d8989940822adaaccb4e94b11cb5ffe580658 = $this->env->getExtension("native_profiler");
-        $__internal_cac9636bb2abd454cac2f442d83d8989940822adaaccb4e94b11cb5ffe580658->enter($__internal_cac9636bb2abd454cac2f442d83d8989940822adaaccb4e94b11cb5ffe580658_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "nhl/details.html.twig"));
+        $__internal_0da21b894d8d11796a1f7a3429c8a300865792fc3c7f1848456c73ec3644be8e = $this->env->getExtension("native_profiler");
+        $__internal_0da21b894d8d11796a1f7a3429c8a300865792fc3c7f1848456c73ec3644be8e->enter($__internal_0da21b894d8d11796a1f7a3429c8a300865792fc3c7f1848456c73ec3644be8e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "nhl/details.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_cac9636bb2abd454cac2f442d83d8989940822adaaccb4e94b11cb5ffe580658->leave($__internal_cac9636bb2abd454cac2f442d83d8989940822adaaccb4e94b11cb5ffe580658_prof);
+        $__internal_0da21b894d8d11796a1f7a3429c8a300865792fc3c7f1848456c73ec3644be8e->leave($__internal_0da21b894d8d11796a1f7a3429c8a300865792fc3c7f1848456c73ec3644be8e_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_97e48c865778481f1ed4ee0a653593ec3524f6209926bf18f597a82b715f3b0e = $this->env->getExtension("native_profiler");
-        $__internal_97e48c865778481f1ed4ee0a653593ec3524f6209926bf18f597a82b715f3b0e->enter($__internal_97e48c865778481f1ed4ee0a653593ec3524f6209926bf18f597a82b715f3b0e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_cd920062b35618aaf5c02e83e88cd3ee2e64a0721080c64f97b04351df68072f = $this->env->getExtension("native_profiler");
+        $__internal_cd920062b35618aaf5c02e83e88cd3ee2e64a0721080c64f97b04351df68072f->enter($__internal_cd920062b35618aaf5c02e83e88cd3ee2e64a0721080c64f97b04351df68072f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <a class=\"btn btn-default\" href=\"";
@@ -78,31 +78,36 @@ class __TwigTemplate_8ebb607559793179035d2890ab6ee1c1f230f6f37519aa9c704d158fd6f
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "description", array()), "html", null, true);
         echo "
     </p>
-
-    ";
+    <div class=\"thumbnail\">
+    <img src=\"";
         // line 20
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl(("uploads/photos/" . $this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "path", array()))), "html", null, true);
+        echo "\" alt=\"photo\">
+    </div>
+    ";
+        // line 22
         if (($this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "id", array()) > 1)) {
-            // line 21
+            // line 23
             echo "        <div class=\"pagination\">
         <ul class=\"pagination pagination-sm\">
         ";
-            // line 24
+            // line 26
             echo "        <li ";
             echo ((($this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "id", array()) == 1)) ? ("class=\"disabled\"") : (""));
             echo ">
             <a href=\"";
-            // line 25
+            // line 27
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("nhl_details", array("id" => ($this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "id", array()) - 1))), "html", null, true);
             echo "\" class=\"btn btn-primary\">«</a>
         </li>
 
             ";
-            // line 29
+            // line 31
             echo "            <li ";
             echo ((($this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "id", array()) == 7)) ? ("class=\"disabled\"") : (""));
             echo ">
                 <a href=\"";
-            // line 30
+            // line 32
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("nhl_details", array("id" => ($this->getAttribute((isset($context["nhl"]) ? $context["nhl"] : $this->getContext($context, "nhl")), "id", array()) + 1))), "html", null, true);
             echo "\" class=\"btn btn-success\">»</a>
             </li>
@@ -110,13 +115,13 @@ class __TwigTemplate_8ebb607559793179035d2890ab6ee1c1f230f6f37519aa9c704d158fd6f
         </div>
     ";
         }
-        // line 35
+        // line 37
         echo "
 
 
 ";
         
-        $__internal_97e48c865778481f1ed4ee0a653593ec3524f6209926bf18f597a82b715f3b0e->leave($__internal_97e48c865778481f1ed4ee0a653593ec3524f6209926bf18f597a82b715f3b0e_prof);
+        $__internal_cd920062b35618aaf5c02e83e88cd3ee2e64a0721080c64f97b04351df68072f->leave($__internal_cd920062b35618aaf5c02e83e88cd3ee2e64a0721080c64f97b04351df68072f_prof);
 
     }
 
@@ -132,7 +137,7 @@ class __TwigTemplate_8ebb607559793179035d2890ab6ee1c1f230f6f37519aa9c704d158fd6f
 
     public function getDebugInfo()
     {
-        return array (  114 => 35,  106 => 30,  101 => 29,  95 => 25,  90 => 24,  86 => 21,  84 => 20,  78 => 17,  72 => 14,  68 => 13,  64 => 12,  60 => 11,  55 => 9,  49 => 6,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  119 => 37,  111 => 32,  106 => 31,  100 => 27,  95 => 26,  91 => 23,  89 => 22,  84 => 20,  78 => 17,  72 => 14,  68 => 13,  64 => 12,  60 => 11,  55 => 9,  49 => 6,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
 /* {% extends 'base.html.twig' %}*/
@@ -153,7 +158,9 @@ class __TwigTemplate_8ebb607559793179035d2890ab6ee1c1f230f6f37519aa9c704d158fd6f
 /*     <p>*/
 /*         {{ nhl.description }}*/
 /*     </p>*/
-/* */
+/*     <div class="thumbnail">*/
+/*     <img src="{{ asset('uploads/photos/'~nhl.path) }}" alt="photo">*/
+/*     </div>*/
 /*     {% if nhl.id > 1 %}*/
 /*         <div class="pagination">*/
 /*         <ul class="pagination pagination-sm">*/
